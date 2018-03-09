@@ -1,0 +1,16 @@
+.welcome-container {
+  position: absolute;
+  top: 47vh;
+  left: 40vw;
+  width: 200px;
+}
+
+.welcome-text {
+  margin: 0;
+  float: left;
+}
+
+.sub-logo-container {
+  width: 50%;
+  margin-left: 50%;
+}
