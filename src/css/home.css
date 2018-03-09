@@ -1,3 +1,11 @@
+#home {
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom left,
+    rgb(252, 252, 252) 55%, hsl(181, 50%, 83%), hsl(183, 53%, 55%)
+  );
+}
+
 .welcome-container {
   position: absolute;
   top: 43vh;
