@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple web page where you can view gmail contacts and emails",
   "scripts": {
-    "start-dev": "nodemon -e html,js.css",
+    "start-dev": "nodemon app.js -e html,js.css",
     "start": "node app.js"
   },
   "dependencies": {

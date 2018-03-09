@@ -1,7 +1,7 @@
 .welcome-container {
   position: absolute;
-  top: 47vh;
-  left: 40vw;
+  top: 43vh;
+  left: 41vw;
   width: 200px;
 }
 
@@ -13,4 +13,10 @@
 .sub-logo-container {
   width: 50%;
   margin-left: 50%;
+}
+
+.signin-container {
+  position: absolute;
+  top: 48vh;
+  left: 42.5vw;
 }

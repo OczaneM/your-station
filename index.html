@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-signin-client_id" content="736647691028-61898ph2ph06es5arp8p96h9jrok6hvd.apps.googleusercontent.com">
     <title>Your Station</title>
 
     <!-- Stylesheets -->
@@ -25,7 +26,7 @@
               Your Station
           </p>
         </div>
-        <div>Goggle Sign-in</div>
+        <div class="g-signin2 signin-container" data-onsuccess="onSignIn"></div>
       </div>
     </div>
     <footer>
@@ -33,6 +34,7 @@
     </footer>
 
     <!-- JS Files -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
     <script src="src/js/framework.js"></script>
     <script src="src/js/home.js"></script>
     <script src="src/js/contacts.js"></script>
